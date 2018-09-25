@@ -8,35 +8,33 @@ tags:
 ---
 
 > ## 서론
-Github Pages상에 Jekyll 기반의 블로그 사이트 구축
+ - Github Pages상에 Jekyll 기반의 블로그 사이트 구축
 
 > ## 준비작업
-- Github Pages 상에서 블로그 호스팅을 위해서는 특별한 이름의 repository가 필요
-- `#{GITHUB_ID}.github.io` 라는 이름으로 리파지토리를 생성
+ - Github Pages 상에서 블로그 호스팅을 위해서는 특별한 이름의 repository가 필요
+ - `#{GITHUB_ID}.github.io` 라는 이름으로 리파지토리를 생성
 
 > ## 테마 가져오기
-
-- 아래 내용은 [minimal-misatakes의 퀵가이드](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) 를 참조 및 요약한 글.
-
-- [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 에서 Fork 또는 downlaod 및 업로드를 통하여 소스를 카피. 
-- 소스 카피 시 필요 없는 파일은 삭제(삭제 리스트는 아래와 같다).
- - .editorconfig
- - .gitattributes
- - .github
- - /docs
- - /test
- - CHANGELOG.md
- - minimal-mistakes-jekyll.gemspec
- - README.md
- - screenshot-layouts.png
- - screenshot.png
+ - 아래 내용은 [minimal-misatakes의 퀵가이드](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) 를 참조 및 요약한 글.
+ - [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 에서 Fork 또는 downlaod 및 업로드를 통하여 소스를 카피. 
+ - 소스 카피 시 필요 없는 파일은 삭제(삭제 리스트는 아래와 같다).
+  - .editorconfig
+  - .gitattributes
+  - .github
+  - /docs
+  - /test
+  - CHANGELOG.md
+  - minimal-mistakes-jekyll.gemspec
+  - README.md
+  - screenshot-layouts.png
+  - screenshot.png
 
 > ## 포스트 쓰기
-- 포스트는 특정 제목으로 작성(YYYY-MM-DD-{TITLE}.md)로 작성
-- 내용은 크게 두 부분으로 구분 
+ - 포스트는 특정 제목으로 작성(YYYY-MM-DD-{TITLE}.md)로 작성
+ - 내용은 크게 두 부분으로 구분 
   - 메타데이터를 위한 yaml 부분
   - 본문을 위한 마크다운 부분
-- yaml은 md 파일의 머릿말에 적으면 된다. 아래가 그 예제
+ - yaml은 md 파일의 머릿말에 적으면 된다. 아래가 그 예제
 
 ```yaml
 ---
