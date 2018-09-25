@@ -7,7 +7,7 @@ tags:
   - minimal-mistakes
 ---
 
-!# 서론
+## 서론
 Github Pages상에 Jekyll 기반의 블로그 사이트 구축
 
 # 준비작업
