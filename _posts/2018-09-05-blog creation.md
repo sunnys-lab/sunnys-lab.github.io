@@ -8,11 +8,9 @@ tags:
 ---
 
 > ## 서론
-
 Github Pages상에 Jekyll 기반의 블로그 사이트 구축
 
 > ## 준비작업
-
 - Github Pages 상에서 블로그 호스팅을 위해서는 특별한 이름의 repository가 필요
 - `#{GITHUB_ID}.github.io` 라는 이름으로 리파지토리를 생성
 
@@ -34,7 +32,6 @@ Github Pages상에 Jekyll 기반의 블로그 사이트 구축
  - screenshot.png
 
 > ## 포스트 쓰기
-
 - 포스트는 특정 제목으로 작성(YYYY-MM-DD-{TITLE}.md)로 작성
 - 내용은 크게 두 부분으로 구분 
   - 메타데이터를 위한 yaml 부분
