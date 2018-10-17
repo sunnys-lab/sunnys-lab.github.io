@@ -17,11 +17,11 @@ tags:
 
 - Cuda Toolkit 8.0 과 cuDNN v5.1 설치
 
-(1) Download & install CUDA Toolkit  
+## (1) Download & install CUDA Toolkit  
 - Toolkit version 8.0 or above: https://developer.nvidia.com/cuda-downloads
 - Installation directory: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
 
-(2) Download and install cuDNN
+## (2) Download and install cuDNN
 - cuDNN version 5.1 library for Windows 10: https://developer.nvidia.com/cudnn
 - 다운로드를 위해선 Nvidia에 회원 가입이 필요하며,  cuDNN 파일들을 압축해제하여 다음과 같이 Toolkit directory에 복사.
 
