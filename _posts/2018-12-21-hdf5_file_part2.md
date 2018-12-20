@@ -67,7 +67,9 @@ keras.utils.io_utils.HDF5Matrix  를 이용하면 Keras에서 HDF5 포맷을 학
 HDF5포맷을 파일로 저장하고, keras의 HDF5Matrix를 이용하면 복잡한 처리 없이 대용량 데이터를 쉽게 학습할 수 있다.
 
 참고로 위의 내용들은 아래의 레퍼런스들을 참고로 만든 내용입니다.
+
 reference 1 = http://nuxlear.tistory.com/4?category=280392
+
 reference 2 = https://www.christopherlovell.co.uk/blog/2016/04/27/h5py-intro.html
 
 
