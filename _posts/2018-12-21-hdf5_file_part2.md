@@ -14,7 +14,7 @@ tags:
 - Random Access 및 빠른 검색 등을 지원
 - Python에서 HDF5를 다루기 위해서는 h5py 라는 모듈 설치가 필요
 
->## h5py를 이용해 새로운 데이터셋을 만드는 방법 
+>## 01. h5py를 이용해 새로운 데이터셋을 만드는 방법 
 
     import numpy as np
     import h5py
@@ -25,15 +25,14 @@ tags:
         image_set = f['image']    # 실 데이터 공간에 접근할 변수를 할당한다. 
         label_set = f['label']
 
-위 코드는 filename 경로에 .hdf5 파일을 생성하고, 그 파일에 자료를 저장할 데이터셋을 생성하는 코드이다. 
 
-filename 은  "path/data/hdf5file/name.hdf5"  과 같은 형식 
-
+위 샘플은 filename 경로에 .hdf5 파일을 생성하고, 그 파일에 자료를 저장할 데이터셋을 생성하는 코드이다. 
+filename 은  "path/data/hdf5file/name.hdf5"  과 같은 형식으로 저장된다 
 데이터셋은 key와 value 형태로 HDF5 파일 내부에 세부 경로를 만들고 그 경로에 주어진 데이터가 들어가는 형식
 즉, 경로를 key로, 데이터를 value로 가지는 대용량의 딕셔너리로 간주하여도 됨다. 
 
 
-[2] 데이터셋을 생성한 뒤에, 실제 저장된 파일의 인덱스에 값을 대입하는 방법은 다음과 같다. 
+>## 02. 데이터셋을 생성한 뒤에, 실제 저장된 파일의 인덱스에 값을 대입하는 방법은 다음과 같다. 
 
 #
     labels = label_set[:]    # 이미지 데이터 전체를 반환하지만, 메모리에 올리지는 않는다. 값에 접근할 때 메모리에 올린다. 
